@@ -179,7 +179,7 @@ A 輸入欲新增文字 在一行後新增文字
 字母 w。如果您看到的是除 d 外的其他字元，那表明您按錯了；請按下 鍵，
 然後重新再來。
 
-—> There are a some words fun that don’t belong paper in this sentence.
+—> There are some words that don’t belong in this sentence.
 
 重複步驟3和步驟4，直至句子修正完畢。接著繼續第二講第二節內容。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -195,7 +195,7 @@ A 輸入欲新增文字 在一行後新增文字
 
 4. 然後輸入 d$ 從游標處刪至當前行尾部。
 
-—> Somebody typed the end of this line twice. end of this line twice.
+—> Somebody typed the end of this line twice.
 
 5. 請繼續學習第二講第三節就知道是怎麼回事了。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -255,7 +255,7 @@ d number(數字) motion
 3. 重複步驟1和步驟2，使用不同的數字使得用一個命令就能刪除全部相鄰的大寫字母
 單詞
 
-—> this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+—> this line of words is cleaned up.
 
 NOTE: A count between the operator  d  and the motion works similar to
       using the motion without an operator.
@@ -273,10 +273,7 @@ NOTE: A count between the operator  d  and the motion works similar to
 4. 接著輸入 2dd 刪除兩行。
 
 —> 1) Roses are red,
-—> 2) Mud is fun,
 —> 3) Violets are blue,
-—> 4) I have a car,
-—> 5) Clocks tell time,
 —> 6) Sugar is sweet
 —> 7) And so are you.
 
@@ -294,7 +291,7 @@ NOTE: A count between the operator  d  and the motion works similar to
 6. 接著多次輸入 u 以撤消 U 以及更前的命令。
 7. 然後多次輸入 CTRL-R (先按下 CTRL 鍵不放開，接著按 R 鍵)，這樣就
 可以重做被撤消的命令，也就是撤消掉撤消命令。
-—> Fiix the errors oon thhis line and reeplace them witth undo.
+—> Fix the errors on this line and replace them with undo.
 
 這些都是非常有用的命令。下面是第二講的小結了。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
