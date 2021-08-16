@@ -783,8 +783,8 @@ hello world with Big O
  ** 使用線上幫助系統 **
 Vim 擁有一個細緻全面的線上幫助系統。要啟動該幫助系統，請選擇如下三種方
 法之一：
-- 按下 鍵 (如果鍵盤上有的話)
-- 按下 鍵 (如果鍵盤上有的話)
+- 按下<help> 鍵 (如果鍵盤上有的話)
+- 按下<F1>  鍵 (如果鍵盤上有的話)
 - 輸入 :help <回車>
 
 請閱讀幫助視窗中的文字以瞭解幫助是如何工作的。
@@ -819,6 +819,9 @@ Vim 的功能特性要比 Vi 多得多，但其中大部分都沒有預設啟用
 下次您啟動 Vim 時，編輯器就會有了語法高亮的功能。
 您可以把您喜歡的各種設定新增到這個 vimrc 檔案中。
 要了解更多資訊請輸入 :help vimrc-intro
+
+Here is my vimrc:
+imap jj <Esc>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 第七講第三節：補全功能
@@ -911,18 +914,3 @@ Charles Smith 提供。編者的電子郵箱是：bware@mines.colorado.edu
   將vimtutor1.4中譯版提交給Bram Moolenaar和Sven Guckes。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 侵刪
-
-.
-
-Does Clearly works fine?
-thumb_up thumb_down
-mail
-Join maillist
-Feedback
-STYLE SETTING
-close
-100%FONT SIZE
-THEME
-AUTO THEME
-FONTS
-OUTLINE
