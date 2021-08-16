@@ -73,7 +73,7 @@ vimtutor <回車>
 
 4. 重複步驟2到步驟4，直到句子修正為止。
 
-—> The ccow jumpedd ovverr thhe mooon.
+—> The cow jumpedd over the mooon.
 
 5. 好了，該行已經修正了，下面是第一講第四節。
 特別提示：在瀏覽本教程時，不要強行記憶。記住一點：在使用中學習。
@@ -93,7 +93,7 @@ vimtutor <回車>
 4. 每個錯誤修正完畢後，請按下 esc 鍵返回正常模式。
 重複步驟2至步驟4以便修正句子。
 
-—> There is text misng this .
+—> There is some text missing from this line.
 —> There is some text missing from this line.
 
 5. 如果您對文字插入操作已經很滿意，請接著閱讀下面的第一講第五節。
@@ -111,9 +111,9 @@ vimtutor <回車>
 
 4. 移動游標到下面第二個標記有 —> 的一行。重複步驟2和步驟3以改正這個句子。
 
-—> There is some text missing from th
+—> There is some text missing from this line.
    There is some text missing from this line.
-—> There is also some text miss
+—> There is also some text missing here.
    There is also some text missing here.
 
 5. 當您對新增文字操作感到滿意時，請繼續學習第一講第六節。
