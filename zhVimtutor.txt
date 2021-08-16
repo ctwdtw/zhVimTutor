@@ -418,7 +418,7 @@ c [number] motion
 第四講第一節：定位及檔案狀態
 
 ** 輸入 CTRL-G 顯示當前編輯檔案中當前游標所在行位置以及檔案狀態資訊。
-輸入大寫 G 則直接跳轉到檔案中的某一指定行。**
+先輸入行號, 再輸入輸入大寫 G <回車> 則直接跳轉到檔案中的某一指定行。**
 
 提示：切記要先通讀本節內容，之後才可以執行以下步驟!!!
 
@@ -489,7 +489,7 @@ CTRL-G 時所在的行了。
 3. 輸入 :s/thee/the/g 則是替換全行的匹配串，該行中所有的 “thee” 都會被
 改變。
 
-—> thee best time to see thee flowers is in thee spring.
+—> the best time to see the flowers is in the spring.
 
 4. 要替換兩行之間出現的每個匹配串，請
 輸入 :#,#s/old/new/g 其中 #,# 代表的是替換操作的若干行中
