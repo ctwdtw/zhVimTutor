@@ -658,10 +658,12 @@ FILENAME 中。
 3. 然後輸入一些文字，之後按 鍵退出插入模式而進入正常模式。
 
 —> After typing o the cursor is placed on the open line in Insert mode.
+hello world with small o
 
 4. 為了在游標 上方 開啟新的一行，只需要輸入大寫的 O 而不是小寫的 o
 就可以了。請在下行測試一下吧。
 
+hello world with Big O
 —> Open up a line above this by typing O while the cursor is on this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -680,7 +682,7 @@ FILENAME 中。
 
 5. 使用 e 移動游標到下一步不完整的單詞，重複步驟3和步驟4。
 
-—> This li will allow you to pract appendi text to a line.
+—> This line will allow you to practice appending text to a line.
 —> This line will allow you to practice appending text to a line.
 
 提示：a、i 和 A 都會帶您進入插入模式，惟一的區別在於字元插入的位置。
@@ -701,7 +703,7 @@ FILENAME 中。
 
 4. 重複以上步驟，將剩餘的 xxx 也替換掉。
 
-—> Adding 123 to xxx gives you xxx.
+—> Adding 123 to 456 gives you 579.
 —> Adding 123 to 456 gives you 579.
 
 提示：替換模式與插入模式相似，不過每個輸入的字元都會刪除一個已有的字元。
@@ -725,7 +727,7 @@ FILENAME 中。
 用 p 將文字貼上到那裡。
 
 —> a) this is the first item.
-   b)
+   b) this is the second item.
 
 提示：您還可以把 y 當作操作符來使用；例如 yw 可以用來複制一個單詞。
 
@@ -742,7 +744,7 @@ FILENAME 中。
 3. 現在可以通過鍵入 n 鍵再次查詢單詞 ignore。注意到 Ignore 和 IGNORE 現在
 也被找到了。
 
-4. 然後設定 hlsearch 和 incsearch 這兩個選項，請輸入： :set hls is
+4. 然後設定 hlsearch 和 incsearch 這兩個選項，請輸入： :set hls 或 :set is
 
 5. 現在可以再次輸入查詢命令，看看會有什麼效果： /ignore <回車>
 
