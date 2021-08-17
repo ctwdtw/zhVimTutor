@@ -333,10 +333,10 @@ $ 代表行末等等。
 
 5. 重複步驟2至步驟4，將所有的行依序放置到正確的位置上。
 
-—> d) Can you learn too?
+—> a) Roses are red,
 —> b) Violets are blue,
 —> c) Intelligence is learned,
-—> a) Roses are red,
+—> d) Can you learn too?
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 第三講第二節：替換類命令
@@ -351,7 +351,7 @@ $ 代表行末等等。
 
 4. 重複步驟2和步驟3，直到第一行已經修改完畢。
 
-—> Whan this lime was tuoed in, someone presswd some wrojg keys!
+—> Whan this line was typed in, someone pressed some wrong keys!
 —> When this line was typed in, someone pressed some wrong keys!
 
 然後我們繼續學習第三講第三節。
@@ -373,7 +373,7 @@ $ 代表行末等等。
 
 5. 重複步驟3和步驟4，直到第一個句子完全雷同第二個句子。
 
-—> This lubw has a few wptfd that mrrf changing usf the change operator.
+—> This line has a few words that need changing using the change operator.
 —> This line has a few words that need changing using the change operator.
 
 提示：請注意 ce 命令不僅僅是刪除了一個單詞，它也讓您進入插入模式了。
@@ -394,7 +394,7 @@ $ 代表行末等等。
 
 5. 然後輸入 c$ 使得該行剩下的部分更正得同第二行一樣。最後按 鍵。
 
-—> The end of this line needs some help to make it like the second.
+—> The end of this line needs to be corrected using the c$ command. 
 —> The end of this line needs to be corrected using the c$ command.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
