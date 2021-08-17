@@ -73,7 +73,7 @@ vimtutor <回車>
 
 4. 重複步驟2到步驟4，直到句子修正為止。
 
-—> The ccow jumpedd ovverr thhe mooon.
+—> The cow jumped over the moon.
 
 5. 好了，該行已經修正了，下面是第一講第四節。
 特別提示：在瀏覽本教程時，不要強行記憶。記住一點：在使用中學習。
@@ -93,7 +93,7 @@ vimtutor <回車>
 4. 每個錯誤修正完畢後，請按下 esc 鍵返回正常模式。
 重複步驟2至步驟4以便修正句子。
 
-—> There is text misng this .
+—> There is some text missing from this line.
 —> There is some text missing from this line.
 
 5. 如果您對文字插入操作已經很滿意，請接著閱讀下面的第一講第五節。
@@ -111,9 +111,9 @@ vimtutor <回車>
 
 4. 移動游標到下面第二個標記有 —> 的一行。重複步驟2和步驟3以改正這個句子。
 
-—> There is some text missing from th
+—> There is some text missing from this line.
    There is some text missing from this line.
-—> There is also some text miss
+—> There is also some text missing here.
    There is also some text missing here.
 
 5. 當您對新增文字操作感到滿意時，請繼續學習第一講第六節。
@@ -179,7 +179,7 @@ A 輸入欲新增文字 在一行後新增文字
 字母 w。如果您看到的是除 d 外的其他字元，那表明您按錯了；請按下 鍵，
 然後重新再來。
 
-—> There are a some words fun that don’t belong paper in this sentence.
+—> There are a some words that don’t belong in this sentence.
 
 重複步驟3和步驟4，直至句子修正完畢。接著繼續第二講第二節內容。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -195,7 +195,7 @@ A 輸入欲新增文字 在一行後新增文字
 
 4. 然後輸入 d$ 從游標處刪至當前行尾部。
 
-—> Somebody typed the end of this line twice. end of this line twice.
+—> Somebody typed the end of this line twice.
 
 5. 請繼續學習第二講第三節就知道是怎麼回事了。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -255,7 +255,7 @@ d number(數字) motion
 3. 重複步驟1和步驟2，使用不同的數字使得用一個命令就能刪除全部相鄰的大寫字母
 單詞
 
-—> this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+—> this line of words is cleaned up.
 
 NOTE: A count between the operator  d  and the motion works similar to
       using the motion without an operator.
@@ -273,10 +273,7 @@ NOTE: A count between the operator  d  and the motion works similar to
 4. 接著輸入 2dd 刪除兩行。
 
 —> 1) Roses are red,
-—> 2) Mud is fun,
 —> 3) Violets are blue,
-—> 4) I have a car,
-—> 5) Clocks tell time,
 —> 6) Sugar is sweet
 —> 7) And so are you.
 
@@ -294,7 +291,7 @@ NOTE: A count between the operator  d  and the motion works similar to
 6. 接著多次輸入 u 以撤消 U 以及更前的命令。
 7. 然後多次輸入 CTRL-R (先按下 CTRL 鍵不放開，接著按 R 鍵)，這樣就
 可以重做被撤消的命令，也就是撤消掉撤消命令。
-—> Fiix the errors oon thhis line and reeplace them witth undo.
+—> Fix the errors on this line and replace them with undo.
 
 這些都是非常有用的命令。下面是第二講的小結了。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -333,10 +330,10 @@ $ 代表行末等等。
 
 5. 重複步驟2至步驟4，將所有的行依序放置到正確的位置上。
 
-—> d) Can you learn too?
+—> a) Roses are red,
 —> b) Violets are blue,
 —> c) Intelligence is learned,
-—> a) Roses are red,
+—> d) Can you learn too?
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 第三講第二節：替換類命令
@@ -351,7 +348,7 @@ $ 代表行末等等。
 
 4. 重複步驟2和步驟3，直到第一行已經修改完畢。
 
-—> Whan this lime was tuoed in, someone presswd some wrojg keys!
+—> Whan this line was typed in, someone pressed some wrong keys!
 —> When this line was typed in, someone pressed some wrong keys!
 
 然後我們繼續學習第三講第三節。
@@ -373,7 +370,7 @@ $ 代表行末等等。
 
 5. 重複步驟3和步驟4，直到第一個句子完全雷同第二個句子。
 
-—> This lubw has a few wptfd that mrrf changing usf the change operator.
+—> This line has a few words that need changing using the change operator.
 —> This line has a few words that need changing using the change operator.
 
 提示：請注意 ce 命令不僅僅是刪除了一個單詞，它也讓您進入插入模式了。
@@ -394,7 +391,7 @@ $ 代表行末等等。
 
 5. 然後輸入 c$ 使得該行剩下的部分更正得同第二行一樣。最後按 鍵。
 
-—> The end of this line needs some help to make it like the second.
+—> The end of this line needs to be corrected using the c$ command. 
 —> The end of this line needs to be corrected using the c$ command.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -492,11 +489,14 @@ CTRL-G 時所在的行了。
 3. 輸入 :s/thee/the/g 則是替換全行的匹配串，該行中所有的 “thee” 都會被
 改變。
 
-—> thee best time to see thee flowers is in thee spring.
+—> the best time to see the flowers is in the spring.
 
 4. 要替換兩行之間出現的每個匹配串，請
 輸入 :#,#s/old/new/g 其中 #,# 代表的是替換操作的若干行中
 首尾兩行的行號。
+hello 1-1, hello 1-2
+hello 2-1
+hello 3-1
 
 5. 輸入 :%s/old/new/g 則是替換整個檔案中的每個匹配串。
 
@@ -598,6 +598,17 @@ CTRL-G 時所在的行了。
 
    ** 要向當前檔案中插入另外的檔案的內容，請輸入 :r FILENAME **
 
+1. 移動游標到本行。
+
+2. 接著按 v 鍵，將游標移動至下面第五個條目上。您會注意到之間的文字被高亮了。
+
+3. 然後按 : 字元。您將看到螢幕底部會出現 :’<,’> 。
+
+4. 現在請輸入 w TEST，其中 TEST 是一個未被使用的檔名。確認您看到了
+:’<,’>w TEST 之後按 <回車> 鍵。
+
+5. 這時 Vim 會把選中的行寫入到以 TEST 命名的檔案中去。使用 :!dir 或 :!ls
+確認檔案被正確儲存。這次先別刪除它！我們在下一講中會用到它。
 1. 請把游標移動到本行上面一行。
 
 特別提示：執行步驟2之後您將看到第五講第三節的文字，請屆時往下移動
@@ -612,6 +623,10 @@ CTRL-G 時所在的行了。
 提示：您還可以讀取外部命令的輸出。例如， :r !ls 可以讀取 ls 命令的輸出，並
 把它放置在游標下面。
 
+LICENSE
+TEST
+word_def.txt
+zhVimtutor.txt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 第五講小結
 
@@ -646,10 +661,12 @@ FILENAME 中。
 3. 然後輸入一些文字，之後按 鍵退出插入模式而進入正常模式。
 
 —> After typing o the cursor is placed on the open line in Insert mode.
+hello world with small o
 
 4. 為了在游標 上方 開啟新的一行，只需要輸入大寫的 O 而不是小寫的 o
 就可以了。請在下行測試一下吧。
 
+hello world wih big O
 —> Open up a line above this by typing O while the cursor is on this line.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -668,7 +685,7 @@ FILENAME 中。
 
 5. 使用 e 移動游標到下一步不完整的單詞，重複步驟3和步驟4。
 
-—> This li will allow you to pract appendi text to a line.
+—> This line will allow you to practice appending text to a line.
 —> This line will allow you to practice appending text to a line.
 
 提示：a、i 和 A 都會帶您進入插入模式，惟一的區別在於字元插入的位置。
@@ -689,7 +706,7 @@ FILENAME 中。
 
 4. 重複以上步驟，將剩餘的 xxx 也替換掉。
 
-—> Adding 123 to xxx gives you xxx.
+—> Adding 123 to 456 gives you 579.
 —> Adding 123 to 456 gives you 579.
 
 提示：替換模式與插入模式相似，不過每個輸入的字元都會刪除一個已有的字元。
@@ -713,7 +730,7 @@ FILENAME 中。
 用 p 將文字貼上到那裡。
 
 —> a) this is the first item.
-   b)
+   b) this is a second item.
 
 提示：您還可以把 y 當作操作符來使用；例如 yw 可以用來複制一個單詞。
 
@@ -784,6 +801,24 @@ Vim 擁有一個細緻全面的線上幫助系統。要啟動該幫助系統，�
 :help c_CTRL-D
 :help insert-index
 :help user-manual
+
+def. of word & WORD extracted by the command `:help word`:
+
+*word*
+A word consists of a sequence of letters, digits and underscores, or a
+sequence of other non-blank characters, separated with white space (spaces,
+tabs, <EOL>).  This can be changed with the 'iskeyword' option.  An empty line
+is also considered to be a word.
+
+*WORD*
+A WORD consists of a sequence of non-blank characters, separated with white
+space.  An empty line is also considered to be a WORD.
+
+A sequence of folded lines is counted for one word of a single character.
+"w" and "W", "e" and "E" move to the start/end of the first word or WORD after
+a range of folded lines.  "b" and "B" move to the start of the first word or
+WORD before the fold.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 第七講第二節：建立啟動指令碼
 
