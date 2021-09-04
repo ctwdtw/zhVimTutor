@@ -1,0 +1,104 @@
+- verb + noun (operation + text you wan to operate)
+- dw (delete a word)
+- commands are repetatble and undoable
+- dot (repeat the last atomic operation on text ex. dw)
+- d, delete
+- c, change
+- >, indent
+- v, visually select
+- y, yank
+
+- example: >> or >j or >2j or >3j
+func hello(_ name: String) {
+    //say hello1
+    //say hello2
+    //say hello3
+    //say hello4
+}
+- exmaple: yw, ye
+func sayHello(_ name: String) {
+
+}
+
+- motion
+- w, word (forward by a word)
+- b, back (back by a word)
+- 2j, down 2 lines
+
+- Text Objects help you  operate in the middle of some text
+- iw, inner word (works frm anywhere in a word)
+- it, inner tag (the contents of an HTML tag) 
+- i, inner quotes
+- ip, inner paragraph
+- as, a sentence
+
+func getDown(){
+    result = calculate(["one thing", "other thing"], 2)
+}
+
+- change inside a tag, tag is specifal, vim can know about it even when the cursor is not completely insdie it.
+<div class="user">
+	<p>Hello Listhello</p>
+	<ul>
+		<li>Chris</li>
+		<li>Ben</li>
+		<li>Joe</li>
+	</ul>
+</div>  
+
+- nouns in vim, parameterized text objects
+- f, F, find the next character
+- t, T, find up to but not include, the next character
+- /, search (up to the next match)
+- example: ctL, change until (not include) the character 'L'
+- example: c/other, change until the searched characters 'other'
+
+Mastering motions and operators
+Your problem with Vim is that you don't grok vi.
+the dot command seems missing in Xcode.
+
+
+Tips for mastering the Language
+The "dot" command
+- use the more general text object(iw rather than w even if at beginning of word)
+- prefer text objects to motions when possible
+- Repeat.vim for plugin repeating.
+
+
+Relative Number
+:set relativenumber
+example: c6j (dont need to calculate the number 6 in mind)
+
+
+Visual Mode Is a Smell
+- dont use 2 sentences where one will due
+- Breakds repeatablity
+
+-example: ciw repeat, viwc dont repeat
+
+func hello1(){}
+
+func hello2(){}
+
+- RARELY THAT VIM DOES NOT HAVE EXPRESSIVENESS TO TARGET WHAT YOU ARE LOOKING AT
+- example: relative number covers visual mode.
+
+
+- custom operators
+- surround (ds", ds', cs"', ysiw", cs<h2)
+- commentary(cml, cmj, cmip), support toggle (cmip, cmip, 會取消 comment)
+- replaceWithRegister
+- TitleCase(gti")
+- Sort-motion, go sort (gsip)
+- System-copy
+
+- custom Text Objects
+- Indent(cmii, cmai)
+- Entire(cmae, dae)
+- Line(cil)
+_ Ruby block(cmar)
+
+textobj-user wiki
+
+having a composable language of operations and text 
+objects is one honking great idea.
